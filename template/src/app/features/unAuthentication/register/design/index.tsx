@@ -1,5 +1,5 @@
 import {Block, Button, Screen, Text, Wallpaper} from '@components';
-import {goBack} from '@navigation/navigationService';
+import {goBack} from '@navigation/navigation-service';
 import React, {memo} from 'react';
 import isEqual from 'react-fast-compare';
 

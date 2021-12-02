@@ -10,7 +10,7 @@ import isEqual from 'react-fast-compare';
 import FastImage from 'react-native-fast-image';
 
 import {CellProps} from './types';
-import {Injector} from './Injector';
+import {Injector} from './injector';
 
 const CellComponent = ({
   onPress,

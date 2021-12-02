@@ -10,7 +10,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {sharedClamp, sharedMin, sharedMax} from './Math';
+import {sharedClamp, sharedMin, sharedMax} from './math';
 
 /**
  * Interpolate number

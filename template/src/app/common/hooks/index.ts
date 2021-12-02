@@ -3,7 +3,7 @@
 import {onCheckType} from '@common';
 import {AppTheme} from '@config/type';
 import NetInfo, {NetInfoState} from '@react-native-community/netinfo';
-import {RootState} from '@store/allReducers';
+import {RootState} from '@store/all-reducers';
 import {useTheme} from '@theme';
 import React, {
   Dispatch,

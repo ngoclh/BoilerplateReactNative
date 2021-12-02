@@ -24,7 +24,7 @@ import {
   Wallpaper,
 } from '@components';
 import {FormLoginType} from '@model/login';
-import {onSetAppTheme} from '@store/app_redux/reducer';
+import {onSetAppTheme} from '@store/app-redux/reducer';
 import React, {memo, useCallback, useRef, useState} from 'react';
 import isEqual from 'react-fast-compare';
 import {Alert} from 'react-native';

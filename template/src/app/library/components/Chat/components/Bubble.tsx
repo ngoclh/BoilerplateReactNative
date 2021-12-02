@@ -1,10 +1,10 @@
 import React, {memo, useMemo} from 'react';
 import {StyleSheet} from 'react-native';
 import isEqual from 'react-fast-compare';
-import {scale} from '@common';
+import {sizeScale} from '@common';
 
-import {Block} from '../../Block/Block';
-import {BubbleProps, MessageProps, SourceMessage} from '../Chat.props';
+import {Block} from '../../block';
+import {BubbleProps, MessageProps, SourceMessage} from '../type';
 
 interface BubbleActualProps
   extends BubbleProps,
@@ -46,12 +46,12 @@ const styles = StyleSheet.create({
   wrap: {
     borderRadius: 10,
     overflow: 'hidden',
-    maxWidth: scale(250),
-    minHeight: scale(20),
+    maxWidth: sizeScale(250),
+    minHeight: sizeScale(20),
   },
   msgText: {
-    paddingHorizontal: scale(10),
-    paddingVertical: scale(8),
+    paddingHorizontal: sizeScale(10),
+    paddingVertical: sizeScale(8),
   },
   lastMine: {
     borderBottomRightRadius: 3,

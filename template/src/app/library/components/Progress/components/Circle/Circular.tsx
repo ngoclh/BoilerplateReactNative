@@ -9,7 +9,7 @@ import Animated, {
   useDerivedValue,
 } from 'react-native-reanimated';
 
-import {STROKE_WIDTH} from './Constant';
+import {STROKE_WIDTH} from './constant';
 
 const EMPTY_COLOR = 'red';
 

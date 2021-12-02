@@ -9,7 +9,7 @@ import {
 import isEqual from 'react-fast-compare';
 
 import {ColumnsProps, Dimensions, CellProps, ItemColumn} from './types';
-import {Cell} from './Cell';
+import {Cell} from './cell';
 import {DEFAULT_COLUMNS, DEFAULT_CELL_SPACE} from './constants';
 
 const ColumnComponent = ({

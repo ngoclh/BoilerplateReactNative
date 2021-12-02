@@ -1,2 +1,2 @@
-export {usePortal} from './usePortal';
-export {usePortalState} from './usePortalState';
+export {usePortal} from './use-portal';
+export {usePortalState} from './use-portal-state';

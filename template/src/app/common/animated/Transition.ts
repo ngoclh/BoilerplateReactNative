@@ -7,7 +7,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-import {sharedBin} from './Math';
+import {sharedBin} from './math';
 
 /**
  * Return value runs from 0 to 1 when state change using withTiming

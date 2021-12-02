@@ -18,7 +18,7 @@ import {
   onCheckNumber,
   containMatchingUri,
 } from './handle';
-import {Column} from './Column';
+import {Column} from './column';
 
 const styles = StyleSheet.create({
   container: {

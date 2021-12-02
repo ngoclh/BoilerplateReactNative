@@ -1,4 +1,4 @@
-export {Masonry as default} from './Masonry';
+export {Masonry as default} from './masonry';
 export type {
   DataType,
   DataPassParam,
